@@ -1,9 +1,12 @@
 .scroll {
     grid-area: scroll-down;
-    color: inherit;
-    font-size: 10px;
     writing-mode: vertical-rl;
     transition: .3s;
+}
+
+.scroll__link {
+    color: inherit;
+    font-size: 14px;
 }
 
 .scroll:hover {

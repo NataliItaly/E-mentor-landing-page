@@ -2,6 +2,10 @@
   padding: 120px 0;
 }
 
+.section_main-screen {
+  margin-top: -270px;
+}
+
 .section_banner {
     background-image: url("../../assets/images/banner-bg.jpg");
     background-repeat: no-repeat;
