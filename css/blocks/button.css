@@ -1,0 +1,18 @@
+.button {
+  display: block;
+  width: 230px;
+  font-size: inherit;
+  padding: 20px 40px;
+  border-radius: 0px 20px;
+  cursor: pointer;
+}
+
+.button_primary {
+  background: var(--accent-color);
+  color: var(--primary-color);
+}
+
+.button_secondary {
+    background-color: var(--primary-bg);
+    color: var(--primary-color);
+}

@@ -1,0 +1,15 @@
+.scroll {
+    grid-area: scroll-down;
+    color: inherit;
+    font-size: 10px;
+    writing-mode: vertical-rl;
+    transition: .3s;
+}
+
+.scroll:hover {
+    opacity: .7;
+}
+
+.scroll:active {
+    opacity: .5;
+}

@@ -1,0 +1,32 @@
+.flex-container-small {
+    display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.flex-container-small__item {
+  text-align: center;
+}
+
+.flex-container-big {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.flex-container-big_reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-container-big__text {
+  font-size: 14px;
+}
+
+.flex-container-big__content_text {
+    max-width: 500px;
+    padding-top: 30px;
+}
+
+.flex-container-big__text {
+  padding-bottom: 50px;
+}

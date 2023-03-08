@@ -1,0 +1,33 @@
+.section {
+  padding: 120px 0;
+}
+
+.section_banner {
+    background-image: url("../../assets/images/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section_primary {
+  background-color: var(--primary-bg);
+  color: var(--primary-color);
+}
+
+.section__title {
+width: 542px;
+font-weight: 500;
+font-size: 58px;
+line-height: 120%;
+color: inherit;
+padding-bottom: 25px;
+}
+
+.section__title_center {
+  text-align: center;
+  width: 100%;
+}
+
+.section__text {
+    padding-bottom: 55px;
+}
+
