@@ -16,3 +16,10 @@
 .scroll:active {
     opacity: .5;
 }
+
+@media (max-width: 720px) {
+    .scroll {
+        align-self: end;
+        padding-bottom: 20px;
+    }
+}

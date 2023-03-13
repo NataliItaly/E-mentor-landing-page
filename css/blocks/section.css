@@ -18,7 +18,7 @@
 }
 
 .section__title {
-width: 542px;
+max-width: 542px;
 font-weight: 500;
 font-size: 58px;
 line-height: 120%;
@@ -33,5 +33,39 @@ padding-bottom: 25px;
 
 .section__text {
     padding-bottom: 55px;
+}
+
+@media (max-width: 1190px) {
+  .section {
+    padding: 60px 0;
+  }
+
+  .section_banner {
+    background-size: contain;
+    padding-top: 450px;
+  }
+
+  .section__title {
+    max-width: 410px;
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 720px) {
+    .section_main-screen {
+        margin-top: -80px;
+        padding: 0;
+    }
+
+    .section_banner {
+      padding-bottom: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .section__title {
+      max-width: 330px;
+    font-size: 26px;
+    }
 }
 

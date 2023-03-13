@@ -1,5 +1,5 @@
 .button {
-  display: block;
+  display: inline-block;
   width: 230px;
   font-size: inherit;
   padding: 20px 40px;

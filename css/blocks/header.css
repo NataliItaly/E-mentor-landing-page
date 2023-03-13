@@ -15,6 +15,9 @@
   justify-content: space-between;
   align-items: center;
   gap: 40px;
+  z-index: 1;
+  background-color: var(--primary-bg);
+  transition: .4s ease-in;
 }
 
 .header__link {
@@ -50,4 +53,21 @@
 
 .header__link:not(.header__link_active):active {
   opacity: 0.5;
+}
+
+@media (max-width: 720px) {
+    .header__list {
+      width: 100vw;
+      padding: 70px 0 50px;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 22px;
+        position: fixed;
+        top: 0;
+        transform: translateY(-100%);
+    }
+
+    .header__list_open {
+      transform:  translateY(0);
+    }
 }
